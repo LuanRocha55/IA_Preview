@@ -163,3 +163,6 @@ app.listen(PORT, () => {
     console.log(`Servidor rodando na porta ${PORT}`);
     console.log(`Frontend pode acessar em: http://localhost:${PORT}`);
 });
+
+// Exporta o app para ser usado pela Vercel
+module.exports = app;
